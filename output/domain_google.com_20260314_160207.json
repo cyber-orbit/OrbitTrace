@@ -1,0 +1,1339 @@
+{
+  "meta": {
+    "target": "google.com",
+    "target_type": "domain",
+    "timestamp": "2026-03-14T16:02:07.536678",
+    "elapsed_seconds": 45.86,
+    "tool": "OrbitTrace v1.0.0"
+  },
+  "results": {
+    "domain": "google.com",
+    "whois": {
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "[datetime.datetime(1997, 9, 15, 4, 0, tzinfo=tzoffset('UTC', 0)), datetime.datetime(1997, 9, 15, 7, 0, tzinfo=tzoffset('UTC', 0))]",
+      "expiration_date": "[datetime.datetime(2028, 9, 14, 4, 0, tzinfo=tzoffset('UTC', 0)), datetime.datetime(2028, 9, 13, 7, 0, tzinfo=tzoffset('UTC', 0))]",
+      "updated_date": "[datetime.datetime(2019, 9, 9, 15, 39, 4, tzinfo=tzoffset('UTC', 0)), datetime.datetime(2024, 8, 2, 2, 17, 33, tzinfo=tzoffset('UTC', 0))]",
+      "name_servers": [
+        "NS1.GOOGLE.COM",
+        "NS2.GOOGLE.COM",
+        "NS3.GOOGLE.COM",
+        "NS4.GOOGLE.COM"
+      ],
+      "status": [
+        "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+        "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+        "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+        "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+        "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+        "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+        "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+        "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+        "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+        "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+        "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+        "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+      ],
+      "emails": [
+        "abusecomplaints@markmonitor.com",
+        "whoisrequest@markmonitor.com"
+      ],
+      "dnssec": "unsigned",
+      "name": null,
+      "org": "Google LLC",
+      "country": "US",
+      "registrant_postal_code": null
+    },
+    "dns": {
+      "A": [
+        "142.250.193.14"
+      ],
+      "AAAA": [
+        "2404:6800:4002:830::200e"
+      ],
+      "MX": [
+        "10 smtp.google.com."
+      ],
+      "NS": [
+        "ns2.google.com.",
+        "ns3.google.com.",
+        "ns1.google.com.",
+        "ns4.google.com."
+      ],
+      "TXT": [
+        "\"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289\"",
+        "\"onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0\"",
+        "\"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB\"",
+        "\"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ\"",
+        "\"v=spf1 include:_spf.google.com ~all\"",
+        "\"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o\"",
+        "\"google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0\"",
+        "\"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95\"",
+        "\"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=\"",
+        "\"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e\"",
+        "\"cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b\"",
+        "\"apple-domain-verification=30afIBcvSuDV2PLX\"",
+        "\"onetrust-domain-verification=0d477fe608074e6f9c12bca7826035cc\""
+      ],
+      "SOA": [
+        "ns1.google.com. dns-admin.google.com. 883061705 900 900 1800 60"
+      ]
+    },
+    "subdomains": [
+      {
+        "subdomain": "www.google.com",
+        "ip": "142.251.152.119",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "mail.google.com",
+        "ip": "142.250.67.69",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "smtp.google.com",
+        "ip": "142.251.12.26",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "admin.google.com",
+        "ip": "142.250.183.14",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "vpn.google.com",
+        "ip": "64.9.224.68",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "api.google.com",
+        "ip": "142.250.193.132",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "images.google.com",
+        "ip": "142.250.67.78",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "video.google.com",
+        "ip": "142.250.193.46",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "blog.google.com",
+        "ip": "142.250.182.41",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "shop.google.com",
+        "ip": "142.250.4.92",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "store.google.com",
+        "ip": "142.250.193.46",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "mobile.google.com",
+        "ip": "142.250.192.235",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "m.google.com",
+        "ip": "142.250.192.203",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "wap.google.com",
+        "ip": "142.250.76.78",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "accounts.google.com",
+        "ip": "192.178.211.84",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "ns1.google.com",
+        "ip": "216.239.32.10",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "ns2.google.com",
+        "ip": "216.239.34.10",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "ns3.google.com",
+        "ip": "216.239.36.10",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "docs.google.com",
+        "ip": "216.58.196.110",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "help.google.com",
+        "ip": "172.217.24.78",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "support.google.com",
+        "ip": "142.250.193.14",
+        "source": "wordlist"
+      },
+      {
+        "subdomain": "focus.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-yhvrfy.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mtv-da.ext.google.com",
+        "ip": "216.239.45.170",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa06.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt3.gmail-smtp-in.l.google.com",
+        "ip": "172.217.78.27",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-weekly.blogspot.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "talkgadget.google.com",
+        "ip": "142.251.223.110",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache5.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt1.gmail-smtp-in.l.google.com",
+        "ip": "172.217.221.27",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache7.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "drive-test.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "spdy-proxy-debug.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-impersonation.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "fra-da.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "search.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "answers.google.com",
+        "ip": "142.250.193.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt2.gmr-smtp-in.l.google.com",
+        "ip": "192.178.163.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "plusone.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache4.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "docs-nightly.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "proxyconfig.corp.google.com",
+        "ip": "74.125.200.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache1.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "oz-s2.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-ocdemo.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites.sandbox.google.com",
+        "ip": "142.250.4.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "auth.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-staging.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "aarjav-b480g7k2ab9@checkout.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-weekly.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "onex.wifi.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "dasher.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache5.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-nightly.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa04.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "audioads.google.com",
+        "ip": "142.250.182.46",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "demetrius.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "m.gutsdev.corp.google.com",
+        "ip": "172.253.118.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cloud.google.com",
+        "ip": "172.217.26.110",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt2.gmail-smtp-in.l.google.com",
+        "ip": "192.178.163.27",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "docs-qa.corp.google.com",
+        "ip": "74.125.24.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "prom-test.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache8.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "misc-sni.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "script.sandbox.google.com",
+        "ip": "172.217.194.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-uberproxy.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "plus.flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt4.gmail-smtp-in.l.google.com",
+        "ip": "142.250.101.26",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "soaproxytest01.ext.google.com",
+        "ip": "216.239.44.94",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "freezone.m.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sandbox.google.com",
+        "ip": "74.125.24.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-yqvrfy.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa08.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-b.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache1.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "search.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "jmt0.google.com",
+        "ip": "172.217.24.78",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "drive.google.com",
+        "ip": "172.217.27.174",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "services.google.com",
+        "ip": "172.217.24.78",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "chrome.google.com",
+        "ip": "142.250.193.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mygeist2010.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-vcvrfy.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache6.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "spdy-proxy.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache2.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "docs.sandbox.google.com",
+        "ip": "74.125.200.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "url.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "prom-qa.sandbox.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "profiles.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "apps-secure-data-connector.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "client-channel.google.com",
+        "ip": "142.250.182.110",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "dfa7.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "loop.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "gmr-smtp-in.l.google.com",
+        "ip": "74.125.130.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache2.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache4.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "accounts.flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache8.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "hyd-da.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "qa.adz.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mtalk.google.com",
+        "ip": "172.253.118.188",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "plus.google.com",
+        "ip": "172.217.24.78",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt4.gmr-smtp-in.l.google.com",
+        "ip": "142.250.101.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "wifi.google.com",
+        "ip": "192.178.211.123",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cag.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "gaiastaging.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache2.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-vctask0.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites.google.com",
+        "ip": "142.250.182.206",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "freezone.mail.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mtv-da.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "code.google.com",
+        "ip": "142.250.183.238",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "developer.google.com",
+        "ip": "172.217.167.238",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-daily.blogspot.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-googlesource.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "hosted-id.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "postini.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "ice.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-prod.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "glass-eur.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mail.flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "clients.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "ads-compare.eem.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "blogspot.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "login.corp.google.com",
+        "ip": "172.253.118.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa01.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "news.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-yhtask0.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-gaia.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt1.gmr-smtp-in.l.google.com",
+        "ip": "172.217.221.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "glass.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache1.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "plus.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "m.guts.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "search.flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "accounts.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt3.aspmx.l.google.com",
+        "ip": "172.217.78.26",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache5.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "www.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache7.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "glass-mtv.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt4.aspmx.l.google.com",
+        "ip": "142.250.101.26",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "ecc-test.sandbox.google.com",
+        "ip": "74.125.200.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "da.ext.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "demetrius-googlecode.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-a.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-git.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "jotspot-qa08.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "googlesource.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-qa.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "webdrive-test-canary.corp.google.com",
+        "ip": "74.125.24.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mail.freezone.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "gaiastaging.flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "da.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache8.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "webdrive-test-prod.corp.google.com",
+        "ip": "172.253.118.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cert-test.sandbox.google.com",
+        "ip": "142.250.4.90",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "plus.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "git.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "eggroll.ext.google.com",
+        "ip": "216.239.44.90",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache6.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "upload.video.google.com",
+        "ip": "172.217.26.47",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "dasher-qa.corp.google.com",
+        "ip": "172.253.118.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "aspmx.l.google.com",
+        "ip": "74.125.130.26",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-yqtask0.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "test.postini.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mtv-da-1.ad.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "developers.google.com",
+        "ip": "216.58.196.110",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "oz-gmail.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mygeist.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "apis.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "friendconnect.google.com",
+        "ip": "172.217.24.78",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "drive.sandbox.google.com",
+        "ip": "74.125.68.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "bigstore.corp.google.com",
+        "ip": "74.125.24.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-d.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache7.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "checkout.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "games.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "orkut-fixprod.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "glass-twd.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "dg.video.google.com",
+        "ip": "74.125.68.176",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "urchin.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "google.com",
+        "ip": "142.250.193.110",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "uberproxy.corp.google.com",
+        "ip": "74.125.24.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "uberproxy-nocert.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "vp.video.l.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa07.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "appengine.google.com",
+        "ip": "172.217.24.78",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "gmail.google.com",
+        "ip": "142.250.193.78",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache3.c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache4.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache6.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "reseed.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "twd-da.ext.google.com",
+        "ip": "72.14.229.178",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "docs-dev.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa05.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "c.pack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "twdsalesgsa.twd.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "uberproxy-san.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-tctest.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cod.ext.google.com",
+        "ip": "216.239.44.73",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt1.aspmx.l.google.com",
+        "ip": "172.217.221.26",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "corp-backups.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "photos.google.com",
+        "ip": "172.217.26.110",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "oz-www.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "meeting.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "dthree.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "www.flexpack.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "upload.google.com",
+        "ip": "142.250.182.111",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "mx.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa02.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "bigstore-test.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "docs-platinum.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "prom.corp.google.com",
+        "ip": "142.251.10.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "hot-da.ext.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt2.aspmx.l.google.com",
+        "ip": "192.178.163.27",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "c.docs.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "demetrius-codespot.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "corp.google.com",
+        "ip": "172.253.118.129",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache3.c.play.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "sites-googlegroups-qa03.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "talk.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "ics.prod.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "prom-qa.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "devconsole-testers.sandbox.google.com",
+        "ip": "74.125.200.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "adwords.google.com",
+        "ip": "192.178.211.139",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "freezone.accounts.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "gmail-smtp-in.l.google.com",
+        "ip": "74.125.68.27",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "misc.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "prom-test.sandbox.google.com",
+        "ip": "74.125.200.81",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-daily.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "alt3.gmr-smtp-in.l.google.com",
+        "ip": "172.217.78.14",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "cache3.c.video.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "soaproxyprod01.ext.google.com",
+        "ip": "72.14.225.70",
+        "source": "crt.sh"
+      },
+      {
+        "subdomain": "staging-c.blogger.corp.google.com",
+        "ip": "unresolved",
+        "source": "crt.sh"
+      }
+    ],
+    "ssl": {
+      "subject": "*.google.com",
+      "issuer": "Google Trust Services",
+      "issued_to": "*.google.com",
+      "valid_from": "Feb  2 08:36:38 2026 GMT",
+      "valid_until": "Apr 27 08:36:37 2026 GMT",
+      "san": [
+        "*.google.com",
+        "*.appengine.google.com",
+        "*.bdn.dev",
+        "*.origin-test.bdn.dev",
+        "*.cloud.google.com",
+        "*.crowdsource.google.com",
+        "*.datacompute.google.com",
+        "*.google.ca",
+        "*.google.cl",
+        "*.google.co.in",
+        "*.google.co.jp",
+        "*.google.co.uk",
+        "*.google.com.ar",
+        "*.google.com.au",
+        "*.google.com.br",
+        "*.google.com.co",
+        "*.google.com.mx",
+        "*.google.com.tr",
+        "*.google.com.vn",
+        "*.google.de"
+      ],
+      "version": 3,
+      "serial_number": "B24FF93A9975FA670A45A4784F3ACC65"
+    },
+    "http_headers": {
+      "Date": "Sat, 14 Mar 2026 10:32:07 GMT",
+      "Expires": "-1",
+      "Cache-Control": "private, max-age=0",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Strict-Transport-Security": "max-age=31536000",
+      "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-v6lApw9IPe615pbM6KI7Sg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+      "Reporting-Endpoints": "default=\"//www.google.com/httpservice/retry/jserror?ei=Jzm1ac_QDYKfnesP_8DUsAs&cad=crash&error=Page%20Crash&jsel=1&bver=2397&dpf=QAF50LPxg9N6o6exh4Rn-pBcg-S0V3rznMXmdG0yWjs\"",
+      "Accept-CH": "Sec-CH-Prefers-Color-Scheme",
+      "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+      "Content-Encoding": "gzip",
+      "Server": "gws",
+      "X-XSS-Protection": "0",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Set-Cookie": "__Secure-STRP=AEEP7gLoybut6-38QhHXOhyUD2Sdf9EkYIAGRwObrtq7VzgFHGZ6cOWDSk8byC10WbzAgkFkhKMJvqdQd7SHXOwzXp4IoWpLk-Hx; expires=Sat, 14-Mar-2026 10:37:07 GMT; path=/; domain=.google.com; Secure; SameSite=strict, AEC=AaJma5ttV8RX9CX7s70qCZ-_8wEDs0PrpZyJninGM6P8VC8g70ukyXhHLnA; expires=Thu, 10-Sep-2026 10:32:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=529=xDj4USO5rGbHszDxBevWFs6TEP49aw-7-F8-RjAix-H0Yri4LMvy7YnKjRw4pE8M5B2wcDzCC6TariE9gCD2fismrjsP8yuykMTDIPUkQUfxWCuINGIWXnClnE-eWbe04by1medxiGipFff5vJoVrF7013KdtKqTxSPXmG_oeKVxQ4EEhyjUZ5VlkWU6yCZTAFglOsKxqQe7-mxqBjsWqNTayvid1uBwWA; expires=Sun, 13-Sep-2026 10:32:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none, __Secure-BUCKET=CKoG; expires=Thu, 10-Sep-2026 10:32:07 GMT; path=/; domain=.google.com; Secure; HttpOnly",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Transfer-Encoding": "chunked"
+    },
+    "technologies": []
+  }
+}
