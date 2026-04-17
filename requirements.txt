@@ -1,0 +1,36 @@
+# OrbitTrace - Python OSINT Framework
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+# ── Core HTTP & Parsing ──────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# ── Terminal & CLI ───────────────────────────────────
+colorama>=0.4.6
+
+# ── DNS & Network ────────────────────────────────────
+dnspython>=2.4.0
+
+# ── WHOIS ────────────────────────────────────────────
+python-whois>=0.9.0
+
+# ── Phone Numbers ────────────────────────────────────
+phonenumbers>=8.13.0
+
+# ── Image Processing & EXIF ──────────────────────────
+Pillow>=10.0.0
+exifread>=3.0.0
+
+# ── PDF Metadata ─────────────────────────────────────
+pypdf>=3.0.0
+
+# ── Audio Metadata (optional) ────────────────────────
+mutagen>=1.47.0
+
+# ── Legacy OLE Office files (optional) ───────────────
+olefile>=0.47
+
+# ── Concurrency (stdlib, no install needed) ──────────
+# concurrent.futures is part of Python 3 stdlib
